@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/images/profile.png" width="130" height="130" style="border-radius: 50%; border: 3px solid #00e5ff; box-shadow: 0 0 20px rgba(0, 229, 255, 0.4); object-fit: cover;" alt="MD Hasibul Islam">
+<img src="assets/images/profile.png" width="100" height="100" style="border-radius: 50%; border: 3px solid #00e5ff; box-shadow: 0 0 20px rgba(0, 229, 255, 0.4); object-fit: cover;" alt="MD Hasibul Islam">
 
 <br>
 
