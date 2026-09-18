@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<img src="assets/images/profile.png" width="130" height="130" style="border-radius: 50%; border: 3px solid #00e5ff; box-shadow: 0 0 20px rgba(0, 229, 255, 0.4); object-fit: cover;" alt="MD Hasibul Islam">
+
+<br>
+
 ![Unreal Engine 5](https://img.shields.io/badge/Engine-Unreal%20Engine%205%20%2F%204-00e5ff?style=for-the-badge&logo=unrealengine&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%2F%20Blueprints-0052cc?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Specialization](https://img.shields.io/badge/Focus-Multiplayer%20%26%20Level%20Design-9d4edd?style=for-the-badge)

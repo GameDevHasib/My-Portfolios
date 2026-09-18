@@ -32,7 +32,9 @@
   <header class="navbar" role="banner">
     <div class="container nav-container">
       <a href="#home" class="brand-logo" aria-label="MD Hasibul Islam Home">
-        <div class="logo-badge">HI</div>
+        <div class="logo-avatar">
+          <img src="assets/images/profile.png" alt="MD Hasibul Islam Avatar">
+        </div>
         <div class="brand-text">
           <span class="brand-name">MD HASIBUL ISLAM</span>
           <span class="brand-role">Unreal Engine Developer</span>
@@ -67,59 +69,81 @@
        ========================================================================== -->
   <section id="home" class="hero" aria-label="Introduction">
     <canvas id="heroCanvas" class="hero-canvas"></canvas>
-    <div class="container hero-content">
-      <div class="status-pill">
-        <span class="status-indicator"></span>
-        <span>Available for Game Dev Roles &amp; Studio Projects</span>
+    <div class="container hero-wrapper">
+      <div class="hero-text">
+        <div class="status-pill">
+          <span class="status-indicator"></span>
+          <span>Available for Game Dev Roles &amp; Studio Projects</span>
+        </div>
+
+        <h1 class="hero-name">MD Hasibul Islam</h1>
+        
+        <div class="hero-role">
+          <span>Unreal Engine Game Developer</span>
+          <span class="role-divider">//</span>
+          <span>Level Designer</span>
+        </div>
+
+        <div class="hero-bio">
+          <p>
+            A passionate and dedicated game developer with experience in Unreal Engine 4, Unreal Engine 5 and level designing, I excel at collaborating with diverse teams and adapting quickly to new challenges. Committed to continuous learning and self-improvement, I bring a strong work ethic and determination to succeed in the gaming industry. With a solid academic background in Computer Science And Engineering, I am eager to create engaging and immersive gaming experiences.
+          </p>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Featured Projects</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">UE4 &amp; UE5</div>
+            <div class="stat-label">Core Engine Focus</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">Multiplayer</div>
+            <div class="stat-label">Replication &amp; Netcode</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">B.Sc. CSE</div>
+            <div class="stat-label">Academic Foundation</div>
+          </div>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            Explore Projects
+          </a>
+          <button type="button" class="btn btn-outline" data-trailer-id="w2xAD6A0TTc">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Watch Infernal Ritual Trailer
+          </button>
+          <a href="https://github.com/GameDevHasib" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub Profile
+          </a>
+        </div>
       </div>
 
-      <h1 class="hero-name">MD Hasibul Islam</h1>
-      
-      <div class="hero-role">
-        <span>Unreal Engine Game Developer</span>
-        <span class="role-divider">//</span>
-        <span>Level Designer</span>
-      </div>
-
-      <div class="hero-bio">
-        <p>
-          A passionate and dedicated game developer with experience in Unreal Engine 4, Unreal Engine 5 and level designing, I excel at collaborating with diverse teams and adapting quickly to new challenges. Committed to continuous learning and self-improvement, I bring a strong work ethic and determination to succeed in the gaming industry. With a solid academic background in Computer Science And Engineering, I am eager to create engaging and immersive gaming experiences.
-        </p>
-      </div>
-
-      <div class="hero-stats">
-        <div class="stat-box">
-          <div class="stat-num">5+</div>
-          <div class="stat-label">Featured Projects</div>
+      <!-- Developer Portrait Card -->
+      <aside class="hero-avatar-card" aria-label="Developer Photo">
+        <div class="avatar-frame">
+          <img src="assets/images/profile.png" alt="MD Hasibul Islam - Unreal Engine Game Developer" class="avatar-img">
+          <div class="avatar-hud-corners">
+            <span class="corner top-left"></span>
+            <span class="corner top-right"></span>
+            <span class="corner bottom-left"></span>
+            <span class="corner bottom-right"></span>
+          </div>
         </div>
-        <div class="stat-box">
-          <div class="stat-num">UE4 &amp; UE5</div>
-          <div class="stat-label">Core Engine Focus</div>
+        <div class="avatar-card-footer">
+          <div class="avatar-status-badge">
+            <span class="pulse-dot"></span>
+            <span>SYS: ONLINE // DEV MODE</span>
+          </div>
+          <span class="avatar-spec">UNREAL ENGINE 5</span>
         </div>
-        <div class="stat-box">
-          <div class="stat-num">Multiplayer</div>
-          <div class="stat-label">Replication &amp; Netcode</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-num">B.Sc. CSE</div>
-          <div class="stat-label">Academic Foundation</div>
-        </div>
-      </div>
-
-      <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
-          Explore Projects
-        </a>
-        <button type="button" class="btn btn-outline" data-trailer-id="w2xAD6A0TTc">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-          Watch Infernal Ritual Trailer
-        </button>
-        <a href="https://github.com/GameDevHasib" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-          GitHub Profile
-        </a>
-      </div>
+      </aside>
     </div>
   </section>
 
