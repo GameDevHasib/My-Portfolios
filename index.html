@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Hasibul Islam | Unreal Engine Game Developer & Level Designer</title>
+  
+  <meta name="description" content="Portfolio of MD Hasibul Islam - Unreal Engine 4 & 5 Game Developer, Level Designer, and Gameplay Programmer specializing in Survival Horror, Action Arcade, Base Building, and Multiplayer Co-op systems.">
+  <meta name="keywords" content="Game Developer, Unreal Engine 5, Unreal Engine 4, Level Design, Gameplay Programmer, Infernal Ritual, Z The DeathLoop, Project Escape, Backroom The Dark Sacrifice, Gravity Switcher, C++, Blueprints">
+  <meta name="author" content="MD Hasibul Islam">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MD Hasibul Islam - Unreal Engine Game Developer">
+  <meta property="og:description" content="Explore featured game projects, gameplay mechanics, trailers, and playable demos built in Unreal Engine.">
+  <meta property="og:image" content="assets/images/infernal_ritual.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="navbar" role="banner">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="MD Hasibul Islam Home">
+        <div class="logo-badge">HI</div>
+        <div class="brand-text">
+          <span class="brand-name">MD HASIBUL ISLAM</span>
+          <span class="brand-role">Unreal Engine Developer</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Specializations</a></li>
+          <li><a href="#spotlight" class="nav-link">Showcase</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://game-dev-hasib.itch.io" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 18.5v-13zm4.75 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm9.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM7.25 13.5a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5z"/></svg>
+          Itch.io
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section id="home" class="hero" aria-label="Introduction">
+    <canvas id="heroCanvas" class="hero-canvas"></canvas>
+    <div class="container hero-content">
+      <div class="status-pill">
+        <span class="status-indicator"></span>
+        <span>Available for Game Dev Roles &amp; Studio Projects</span>
+      </div>
+
+      <h1 class="hero-name">MD Hasibul Islam</h1>
+      
+      <div class="hero-role">
+        <span>Unreal Engine Game Developer</span>
+        <span class="role-divider">//</span>
+        <span>Level Designer</span>
+      </div>
+
+      <div class="hero-bio">
+        <p>
+          A passionate and dedicated game developer with experience in Unreal Engine 4, Unreal Engine 5 and level designing, I excel at collaborating with diverse teams and adapting quickly to new challenges. Committed to continuous learning and self-improvement, I bring a strong work ethic and determination to succeed in the gaming industry. With a solid academic background in Computer Science And Engineering, I am eager to create engaging and immersive gaming experiences.
+        </p>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Featured Projects</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">UE4 &amp; UE5</div>
+          <div class="stat-label">Core Engine Focus</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">Multiplayer</div>
+          <div class="stat-label">Replication &amp; Netcode</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">B.Sc. CSE</div>
+          <div class="stat-label">Academic Foundation</div>
+        </div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          Explore Projects
+        </a>
+        <button type="button" class="btn btn-outline" data-trailer-id="w2xAD6A0TTc">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          Watch Infernal Ritual Trailer
+        </button>
+        <a href="https://github.com/GameDevHasib" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECTS SHOWCASE SECTION
+       ========================================================================== -->
+  <section id="projects" class="projects-section" aria-label="Game Development Projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Featured Works
+        </span>
+        <h2 class="section-title">Development Portfolio</h2>
+        <p class="section-subtitle">
+          Explore production-ready game titles spanning Survival Horror, Fast-Paced Action, Wave-Defense Survival, and Multiplayer Co-op.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs" role="tablist">
+        <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+        <button class="filter-btn" data-filter="horror">Horror &amp; Survival (2)</button>
+        <button class="filter-btn" data-filter="action">Action &amp; Arcade (2)</button>
+        <button class="filter-btn" data-filter="base-building">Base-Building &amp; Defense (1)</button>
+        <button class="filter-btn" data-filter="multiplayer">Multiplayer Co-op (1)</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- ==================== PROJECT 01: INFERNAL RITUAL ==================== -->
+        <article class="project-card" data-category="horror" id="infernal-ritual">
+          <div class="project-media">
+            <span class="badge-engine">UNREAL ENGINE 5</span>
+            <span class="project-id-badge">PROJECT 01</span>
+            <img src="assets/images/infernal_ritual.png" alt="Infernal Ritual Game Screenshot" loading="lazy" onerror="this.src='https://github.com/GameDevHasib/My-Portfolios/assets/130881864/35ad2f81-d48c-4cba-be32-7cc88661d1cf'">
+            <div class="media-overlay">
+              <div class="media-actions">
+                <button type="button" class="view-btn" data-trailer-id="w2xAD6A0TTc">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  Watch Trailer
+                </button>
+                <button type="button" class="view-btn" data-lightbox-src="assets/images/infernal_ritual.png" data-lightbox-title="Infernal Ritual - Screenshot">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  Full View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div>
+              <span class="project-category">Story-Driven Horror Survival</span>
+              <h3 class="project-title">Infernal Ritual</h3>
+              <p class="project-desc">
+                "Infernal Ritual is a story-driven horror survival game where the player becomes trapped inside a relative’s house after uncovering traces of an ancient and forbidden immortal ritual. As the mystery unfolds, the player must survive escalating paranormal events while searching for a way to escape the cursed location.<br>
+                The narrative centers on disturbing family secrets, tragic past events, and the consequences of rituals that transcended death."
+              </p>
+
+              <div class="mechanics-container">
+                <h4 class="mechanics-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  Gameplay Mechanics:
+                </h4>
+                <ul class="mechanics-list">
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Exploration-driven survival horror gameplay.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Searching for keys, books, and ritual-related objects to progress.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Puzzle solving based on environmental clues, notes, and hidden messages.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Dynamic paranormal events that increase tension and unpredictability.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Demon encounters involving chase, stealth, and survival mechanics.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Hiding mechanics, including lockers and safe spots, to evade demonic entities.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <button type="button" class="btn btn-outline btn-sm" data-trailer-id="w2xAD6A0TTc">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Infernal Ritual Trailer
+              </button>
+              <a href="https://drive.google.com/file/d/1qZ0F73PQyrIj315GghuGqvyNBZ1Jj22b/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Project Link
+              </a>
+              <a href="https://drive.google.com/file/d/1WABZbwlzfc6ZYYKhtv6pAfgu-g8zDM_j/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                Project Demo Link
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ==================== PROJECT 02: PROJECT ESCAPE ==================== -->
+        <article class="project-card reverse" data-category="action" id="project-escape">
+          <div class="project-media">
+            <span class="badge-engine">UNREAL ENGINE</span>
+            <span class="project-id-badge">PROJECT 02</span>
+            <img src="assets/images/project_escape.png" alt="Project Escape Game Screenshot" loading="lazy" onerror="this.src='https://github.com/user-attachments/assets/7ef4c5af-44a2-4cdd-b74e-cd8f21066ab8'">
+            <div class="media-overlay">
+              <div class="media-actions">
+                <a href="https://game-dev-hasib.itch.io/project-escape" target="_blank" rel="noopener noreferrer" class="view-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 18.5v-13zm4.75 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm9.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM7.25 13.5a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5z"/></svg>
+                  Play on Itch.io
+                </a>
+                <button type="button" class="view-btn" data-lightbox-src="assets/images/project_escape.png" data-lightbox-title="Project Escape - Screenshot">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  Full View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div>
+              <span class="project-category">Action-Packed Reflex &amp; Strategy</span>
+              <h3 class="project-title">Project Escape</h3>
+              <p class="project-desc">
+                Experience "<a href="https://game-dev-hasib.itch.io/project-escape" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">Project Escape</a>" - A thrilling action-packed game where your reflexes and strategy are put to the ultimate test.<br>
+                In Project Escape, you’ll embark on a heart-pounding adventure as you run, collect coins, and outsmart a relentless ghost hot on your trail. Every move counts in this immersive experience where danger lurks around every corner. Can you outsmart the specter and emerge victorious?
+              </p>
+
+              <div class="mechanics-container">
+                <h4 class="mechanics-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  Gameplay Mechanics:
+                </h4>
+                <ul class="mechanics-list">
+                  <li class="mechanics-item"><span class="mechanics-bullet">⚡</span> <span><strong>Speed Boosts:</strong> Unleash bursts of speed to outrun the ghost and navigate the landscape faster than ever.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🧲</span> <span><strong>Magnetic Coins:</strong> Harness magnetic powers to attract nearby coins, making collection effortless and rewarding.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🛡️</span> <span><strong>Angel Guardians:</strong> Encounter angelic allies throughout your journey. Each angel you meet grants you the ability to temporarily banish the haunting entity, giving you a chance to escape and strategize.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">❤️</span> <span><strong>Extra Lives:</strong> Discover extra lives hidden within the game world, allowing you to resurrect when faced with peril from the ghost.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <a href="https://game-dev-hasib.itch.io/project-escape" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 18.5v-13zm4.75 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm9.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM7.25 13.5a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5z"/></svg>
+                Experience on Itch.io
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ==================== PROJECT 03: Z THE DEATHLOOP ==================== -->
+        <article class="project-card" data-category="base-building action" id="z-the-deathloop">
+          <div class="project-media">
+            <span class="badge-engine">UNREAL ENGINE</span>
+            <span class="project-id-badge">PROJECT 03</span>
+            <img src="assets/images/z_deathloop.png" alt="Z The DeathLoop Game Screenshot" loading="lazy" onerror="this.src='https://github.com/user-attachments/assets/8c2f07dd-1039-4d4d-bbc8-ed54188a9eac'">
+            <div class="media-overlay">
+              <div class="media-actions">
+                <a href="https://stroyed-studio.itch.io/z-the-death-loop" target="_blank" rel="noopener noreferrer" class="view-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 18.5v-13zm4.75 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm9.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM7.25 13.5a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5z"/></svg>
+                  Play on Itch.io
+                </a>
+                <button type="button" class="view-btn" data-lightbox-src="assets/images/z_deathloop.png" data-lightbox-title="Z The DeathLoop - Screenshot">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  Full View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div>
+              <span class="project-category">Dynamic Stylized Survival &amp; Base-Building</span>
+              <h3 class="project-title"><a href="https://stroyed-studio.itch.io/z-the-death-loop" target="_blank" rel="noopener noreferrer">Z The DeathLoop</a></h3>
+              <p class="project-desc">
+                "The world has fallen. You are one of the last survivors, and your only hope is the fortified base you’re building. Z The Death Loop is a dynamic, stylized Survival game that throws you into an endless cycle of Base-Building, Crafting, and intense Action. The horde never stops, and neither can you."
+              </p>
+
+              <div class="mechanics-container">
+                <h4 class="mechanics-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  Gameplay Mechanics:
+                </h4>
+                <ul class="mechanics-list">
+                  <li class="mechanics-item"><span class="mechanics-bullet">💥</span> <span><strong>Endless Zombie Survival:</strong> Face infinite, escalating waves in a high-replay survival experience.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🏗️</span> <span><strong>Deep Base Building &amp; Defense:</strong> Design, build, and upgrade your fortified base to withstand smarter, stronger hordes.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🔫</span> <span><strong>Action Shooter Combat:</strong> Fast, responsive shooting combined with tactical defense and positioning.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🧰</span> <span><strong>Crafting &amp; Upgrades:</strong> Craft weapons, traps, ammo, and structures using scavenged materials.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🗺️</span> <span><strong>Scavenge the Wasteland:</strong> Risk dangerous expeditions for rare resources—high risk, high reward.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🎯</span> <span><strong>Strategic Resource Management:</strong> Decide between reinforcing defenses or pushing deeper into deadly zones.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🎨</span> <span><strong>Stylized Visuals:</strong> Bold, clean art style for clear combat readability and a unique identity.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🔁</span> <span><strong>Endless Replayability:</strong> Every loop is different. Every run is a new challenge.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <a href="https://stroyed-studio.itch.io/z-the-death-loop" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 18.5v-13zm4.75 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm9.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM7.25 13.5a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5z"/></svg>
+                Z The DeathLoop on Itch.io
+              </a>
+              <a href="https://drive.google.com/file/d/1hlJ5OH-RG5QunhEBjbq7GlkkKJHd9Hy3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Project Link
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ==================== PROJECT 04: GRAVITY SWITCHER ==================== -->
+        <article class="project-card reverse" data-category="action" id="gravity-switcher">
+          <div class="project-media">
+            <span class="badge-engine">UNREAL ENGINE</span>
+            <span class="project-id-badge">PROJECT 04</span>
+            <img src="assets/images/gravity_switcher.png" alt="Gravity Switcher Game Screenshot" loading="lazy" onerror="this.src='https://github.com/user-attachments/assets/7e82f63c-e42b-4dfe-ae9c-21e8aedf8957'">
+            <div class="media-overlay">
+              <div class="media-actions">
+                <a href="https://drive.google.com/file/d/1LhIM0poviX4h6spXQ5aitXu57LYmQHZS/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="view-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download Project
+                </a>
+                <button type="button" class="view-btn" data-lightbox-src="assets/images/gravity_switcher.png" data-lightbox-title="Gravity Switcher - Screenshot">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  Full View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div>
+              <span class="project-category">Challenging Arcade &amp; Physics Mechanics</span>
+              <h3 class="project-title">Gravity Switcher</h3>
+              <p class="project-desc">
+                "Gravity Switcher is a challenging arcade game where the player controls a ball using simple click-based input. The core mechanic focuses on precise timing, gravity control, and player skill. The objective is to navigate through obstacles and difficult paths by mastering jump timing and air control."
+              </p>
+
+              <div class="mechanics-container">
+                <h4 class="mechanics-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  Gameplay Mechanics:
+                </h4>
+                <ul class="mechanics-list">
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Single-click input to make the ball jump.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Multiple clicks allow the ball to float temporarily in the air.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Precision-based obstacle navigation.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Hard paths that require careful control and quick decision-making.</li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">▹</span> Increasing difficulty designed to test player reflexes and timing.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <a href="https://drive.google.com/file/d/1LhIM0poviX4h6spXQ5aitXu57LYmQHZS/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Gravity Switcher Project Link
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ==================== PROJECT 05: BACKROOM ==================== -->
+        <article class="project-card" data-category="horror multiplayer" id="backroom">
+          <div class="project-media">
+            <span class="badge-engine">UNREAL ENGINE // MULTIPLAYER</span>
+            <span class="project-id-badge">PROJECT 05</span>
+            <img src="assets/images/backroom.png" alt="Backroom The Dark Sacrifice Game Screenshot" loading="lazy" onerror="this.src='https://github.com/user-attachments/assets/81f7807f-c201-4c43-ad49-c60ad00e8341'">
+            <div class="media-overlay">
+              <div class="media-actions">
+                <a href="https://drive.google.com/file/d/1rHaoRHsLOgA7qM6JNdFfS1RFLwidN2HN/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="view-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download Project
+                </a>
+                <button type="button" class="view-btn" data-lightbox-src="assets/images/backroom.png" data-lightbox-title="Backroom: The Dark Sacrifice - Screenshot">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  Full View
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div>
+              <span class="project-category">Multiplayer Cooperative Horror &amp; Networking</span>
+              <h3 class="project-title">Backroom: The Dark Sacrifice</h3>
+              <p class="project-desc">
+                "Backroom: The Dark Sacrifice" is a multiplayer cooperative horror game where players must work together to escape the mysterious Backrooms. The environment is filled with puzzles, hostile entities, and constant tension. Players must explore, solve puzzles collaboratively, and survive while being hunted by ghosts that roam the maze-like corridors.
+              </p>
+
+              <div class="mechanics-container">
+                <h4 class="mechanics-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  Gameplay Mechanics:
+                </h4>
+                <ul class="mechanics-list">
+                  <li class="mechanics-item"><span class="mechanics-bullet">🌐</span> <span><strong>Multiplayer Replication System:</strong> Synchronizes gameplay, character positions, and world events across connected players.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🖥️</span> <span><strong>Local Server Hosting:</strong> Enables seamless peer-to-peer session creation and joining.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🎲</span> <span><strong>Randomized Puzzle Generation:</strong> Increases replayability with unique layout variations each session.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🧩</span> <span><strong>Collaborative Puzzle Solving:</strong> Requires co-op coordination to unlock paths and progress.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">👻</span> <span><strong>AI Ghost Behavior System:</strong> Features intelligent entities programmed with sensory detection and hunting loops.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">⚖️</span> <span><strong>Dynamic Decision-Making:</strong> Strategic choices that directly impact survival and rescue operations.</span></li>
+                  <li class="mechanics-item"><span class="mechanics-bullet">🚪</span> <span><strong>Atmospheric Exploration:</strong> Maze navigation filled with psychological horror and high tension.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <a href="https://drive.google.com/file/d/1rHaoRHsLOgA7qM6JNdFfS1RFLwidN2HN/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Backroom: The Dark Sacrifice Project Link
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TECHNICAL SPECIALIZATIONS
+       ========================================================================== -->
+  <section id="skills" class="skills-section" aria-label="Technical Specializations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          Core Competencies
+        </span>
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">
+          Specialized in modern game architecture, gameplay systems, and high-fidelity engine workflows.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill 1 -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3 class="skill-title">Unreal Engine 4 &amp; 5</h3>
+          <p class="skill-desc">
+            Deep experience in Unreal Engine architecture: Gameplay Framework, Blueprints visual scripting, C++ implementation, Character Controllers, and custom physics logic.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">UE4</span>
+            <span class="skill-tag">UE5</span>
+            <span class="skill-tag">Blueprints</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Gameplay Framework</span>
+          </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3 class="skill-title">Multiplayer &amp; Replication</h3>
+          <p class="skill-desc">
+            Implementation of networked gameplay replication, client-server synchronization, RPCs, local server hosting, session creation, and multiplayer match logic.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Network Replication</span>
+            <span class="skill-tag">Server Hosting</span>
+            <span class="skill-tag">RPCs</span>
+            <span class="skill-tag">Session Management</span>
+          </div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="12 8 8 12 12 16 16 12 12 8"></polygon></svg>
+          </div>
+          <h3 class="skill-title">AI &amp; Enemy Systems</h3>
+          <p class="skill-desc">
+            Creation of challenging enemy entities utilizing Behavior Trees, Blackboards, AI Perception, navigation meshes, dynamic patrol routines, stealth, and chase states.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Behavior Trees</span>
+            <span class="skill-tag">AI Perception</span>
+            <span class="skill-tag">Blackboard</span>
+            <span class="skill-tag">NavMesh</span>
+            <span class="skill-tag">State Machines</span>
+          </div>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
+          </div>
+          <h3 class="skill-title">Level Design &amp; Atmosphere</h3>
+          <p class="skill-desc">
+            Crafting engaging game spaces, environmental storytelling, dramatic lighting, atmospheric horror tension, modular layout assembly, and spatial pacing.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Level Design</span>
+            <span class="skill-tag">Atmospheric Lighting</span>
+            <span class="skill-tag">Environmental Story</span>
+            <span class="skill-tag">Post-Processing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Background Banner -->
+      <div class="academic-card">
+        <div class="academic-info">
+          <span class="section-tag" style="margin-bottom: 0.5rem;">Academic Background</span>
+          <h3>Computer Science and Engineering</h3>
+          <p>
+            Equipped with a solid academic foundation in Computer Science and Engineering, combining rigorous algorithmic problem-solving, software engineering principles, and scalable system architecture with game engine development.
+          </p>
+        </div>
+        <a href="#contact" class="btn btn-outline">Collaborate With Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TRAILER SPOTLIGHT SECTION
+       ========================================================================== -->
+  <section id="spotlight" class="trailer-section" aria-label="Featured Video Showcase">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          Featured Video
+        </span>
+        <h2 class="section-title">Infernal Ritual Showcase</h2>
+        <p class="section-subtitle">
+          Watch the official gameplay trailer showcasing immersive horror atmosphere, dynamic paranormal events, and narrative exploration in Unreal Engine.
+        </p>
+      </div>
+
+      <div class="spotlight-card">
+        <div class="spotlight-player">
+          <iframe 
+            src="https://www.youtube-nocookie.com/embed/w2xAD6A0TTc" 
+            title="Infernal Ritual Official Trailer - MD Hasibul Islam" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="spotlight-info">
+          <div class="spotlight-text">
+            <h3>Infernal Ritual - Story-Driven Horror Survival</h3>
+            <p>Full game build and playable demo available via Google Drive.</p>
+          </div>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="https://drive.google.com/file/d/1qZ0F73PQyrIj315GghuGqvyNBZ1Jj22b/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Full Project Download
+            </a>
+            <a href="https://drive.google.com/file/d/1WABZbwlzfc6ZYYKhtv6pAfgu-g8zDM_j/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              Playable Demo Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT & SOCIALS
+       ========================================================================== -->
+  <section id="contact" class="contact-section" aria-label="Contact and Social Channels">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag" style="align-self: flex-start;">Get In Touch</span>
+          <h3>Let's Build Extraordinary Games Together</h3>
+          <p>
+            Whether you are looking for an Unreal Engine game developer, level designer, or technical programmer for your upcoming project, studio role, or indie collaboration, feel free to reach out!
+          </p>
+
+          <div class="social-links">
+            <a href="https://github.com/GameDevHasib" target="_blank" rel="noopener noreferrer" class="social-item">
+              <div class="social-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div class="social-meta">
+                <span class="social-label">GitHub Repository &amp; Code</span>
+                <span class="social-value">github.com/GameDevHasib</span>
+              </div>
+            </a>
+
+            <a href="https://game-dev-hasib.itch.io" target="_blank" rel="noopener noreferrer" class="social-item">
+              <div class="social-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 18.5v-13zm4.75 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm9.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM7.25 13.5a.75.75 0 0 0 0 1.5h9.5a.75.75 0 0 0 0-1.5h-9.5z"/></svg>
+              </div>
+              <div class="social-meta">
+                <span class="social-label">Playable Games on Itch.io</span>
+                <span class="social-value">game-dev-hasib.itch.io</span>
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=w2xAD6A0TTc" target="_blank" rel="noopener noreferrer" class="social-item">
+              <div class="social-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </div>
+              <div class="social-meta">
+                <span class="social-label">YouTube Game Trailers</span>
+                <span class="social-value">Infernal Ritual Trailer</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Direct Inquiry Form -->
+        <form id="contactForm" class="contact-form" aria-label="Direct Inquiry Form">
+          <div class="form-group">
+            <label for="formName" class="form-label">Your Name</label>
+            <input type="text" id="formName" class="form-input" placeholder="e.g. Alex Johnson" required>
+          </div>
+          <div class="form-group">
+            <label for="formEmail" class="form-label">Your Email</label>
+            <input type="email" id="formEmail" class="form-input" placeholder="alex@studio.com" required>
+          </div>
+          <div class="form-group">
+            <label for="formSubject" class="form-label">Subject</label>
+            <input type="text" id="formSubject" class="form-input" placeholder="Unreal Engine Project Collaboration" required>
+          </div>
+          <div class="form-group">
+            <label for="formMessage" class="form-label">Message</label>
+            <textarea id="formMessage" class="form-textarea" placeholder="Tell me about your project, game concept, or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            Send Message Direct
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="footer-credits">
+        &copy; <span id="currentYear">2026</span> <strong>MD Hasibul Islam</strong>. All rights reserved.
+      </div>
+      <div class="footer-tagline">
+        Engineered with Unreal Engine Precision // C++ &amp; Blueprints
+      </div>
+      <div>
+        <a href="#home" class="btn btn-secondary btn-sm" aria-label="Back to top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS
+       ========================================================================== -->
+  <!-- Video Trailer Modal -->
+  <div id="videoModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Game Trailer Player">
+    <div class="modal-container">
+      <button class="modal-close" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-body">
+        <div class="video-modal-frame">
+          <iframe id="videoFrame" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Image Preview Lightbox">
+    <div class="modal-container" style="max-width: 1000px; background: rgba(0,0,0,0.95);">
+      <button class="modal-close" aria-label="Close lightbox">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-body lightbox-img-wrapper">
+        <img id="lightboxImg" src="" alt="Enlarged screenshot">
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
